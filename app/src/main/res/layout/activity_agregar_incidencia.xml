@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarIncidencia">
+
+    <ImageButton
+        android:layout_width="413dp"
+        android:layout_height="342dp"
+        android:src="@drawable/addfoto"
+        android:id="@+id/addFoto"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion de incidencia"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="306dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:text="descripcion"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <EditText
+        android:id="@+id/aula"
+        android:layout_width="305dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:text="aula"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subir"
+        android:text="Añadir"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</android.support.constraint.ConstraintLayout>

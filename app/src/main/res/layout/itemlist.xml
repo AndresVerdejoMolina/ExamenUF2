@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/fotoTarea"
+        android:layout_width="154dp"
+        android:layout_height="78dp"
+        android:layout_alignTop="@+id/numeroAula"
+        android:layout_marginTop="-47dp" />
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:text="Nombre"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Tarea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numeroAula"
+        android:layout_marginLeft="-47dp"
+        android:layout_marginTop="150px"
+        android:text="Aula:" />
+
+    <TextView
+        android:id="@+id/numeroAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tarea"
+        android:layout_alignLeft="@+id/tarea"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="34dp"
+        android:text="Nº Aula" />
+</RelativeLayout>
